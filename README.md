@@ -30,5 +30,5 @@ curl -X 'POST' \
     "http://10.167.67.78:8000/v1/completions" \
     -H "accept: application/json" \
     -H "Content-Type: application/json" \
-    -d '{"model": "meta/llama3-8b-instruct", "prompt": “Describe Retrieval-Augmented Generation?”, "max_tokens": 64}'
+    -d '{"model": "meta/llama3-8b-instruct", "prompt": "Describe Retreival-Augmented Generation", "max_tokens": 64}'
 ```
